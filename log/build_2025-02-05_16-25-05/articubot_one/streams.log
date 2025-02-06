@@ -1,0 +1,108 @@
+[0.009s] Invoking command in '/home/tanmay/bot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tanmay/bot_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tanmay/bot_ws/install/articubot_one
+[0.019s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.109s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.163s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.170s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.170s] -- Configured cppcheck include dirs: 
+[0.170s] -- Configured cppcheck exclude dirs and/or files: 
+[0.177s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.177s] -- Configured cpplint exclude dirs and/or files: 
+[0.178s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.180s] -- Added test 'lint_cmake' to check CMake code style
+[0.181s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.187s] -- Added test 'uncrustify' to check C / C++ code style
+[0.188s] -- Configured uncrustify additional arguments: 
+[0.189s] -- Added test 'xmllint' to check XML markup files
+[0.190s] -- Configuring done
+[0.193s] -- Generating done
+[0.194s] -- Build files have been written to: /home/tanmay/bot_ws/build/articubot_one
+[0.197s] Invoked command in '/home/tanmay/bot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tanmay/bot_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tanmay/bot_ws/install/articubot_one
+[0.198s] Invoking command in '/home/tanmay/bot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tanmay/bot_ws/build/articubot_one -- -j8 -l8
+[0.227s] Invoked command in '/home/tanmay/bot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tanmay/bot_ws/build/articubot_one -- -j8 -l8
+[0.251s] Invoking command in '/home/tanmay/bot_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tanmay/bot_ws/build/articubot_one
+[0.257s] -- Install configuration: ""
+[0.257s] -- Execute custom install script
+[0.257s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[0.265s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[0.274s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[0.280s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.286s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[0.292s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[0.299s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/joystick.yaml
+[0.305s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[0.311s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[0.317s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[0.323s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[0.330s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[0.336s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[0.342s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[0.349s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.355s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[0.361s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/face.xacro
+[0.367s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.373s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.380s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.386s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.393s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.400s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[0.409s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.409s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.409s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.409s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.409s] Call Stack (most recent call first):
+[0.409s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.409s]   cmake_install.cmake:46 (include)
+[0.409s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.409s] [0m
+[0.409s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[0.416s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/build/.built_by
+[0.423s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/build/COLCON_IGNORE
+[0.433s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[0.440s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/.colcon_install_layout
+[0.448s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/COLCON_IGNORE
+[0.457s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/_local_setup_util_ps1.py
+[0.464s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/_local_setup_util_sh.py
+[0.472s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/local_setup.bash
+[0.479s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/local_setup.ps1
+[0.486s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/local_setup.sh
+[0.492s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/local_setup.zsh
+[0.499s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/setup.bash
+[0.505s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/setup.ps1
+[0.511s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/setup.sh
+[0.517s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/install/setup.zsh
+[0.523s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[0.530s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[0.536s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.542s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[0.549s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/COLCON_IGNORE
+[0.555s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/build_2025-02-04_22-43-59/events.log
+[0.561s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/build_2025-02-04_22-43-59/logger_all.log
+[0.567s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/build_2025-02-04_22-44-05/events.log
+[0.573s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/build_2025-02-04_22-44-05/logger_all.log
+[0.579s] -- Up-to-date symlink: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/latest/events.log
+[0.579s] -- Up-to-date symlink: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/latest/logger_all.log
+[0.579s] -- Up-to-date symlink: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/latest_build/events.log
+[0.579s] -- Up-to-date symlink: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/log/latest_build/logger_all.log
+[0.579s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[0.585s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[0.591s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.598s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.604s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.611s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[0.618s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.624s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.632s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.639s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.647s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[0.654s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.661s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[0.668s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[0.674s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.680s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.687s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/package.dsv
+[0.693s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.700s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.706s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.714s] -- Symlinking: /home/tanmay/bot_ws/install/articubot_one/share/articubot_one/package.xml
+[0.722s] Invoked command in '/home/tanmay/bot_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tanmay/bot_ws/build/articubot_one

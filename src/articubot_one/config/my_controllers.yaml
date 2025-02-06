@@ -1,0 +1,44 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 30
+    use_sim_time: true  # Enable simulation time if running in Gazebo
+
+    diff_cont:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+diff_cont:
+  ros__parameters:
+    publish_rate: 30.0  # Match update_rate to avoid inconsistencies
+
+    base_frame_id: base_link
+
+    left_wheel_names: ['left_wheel_joint']
+    right_wheel_names: ['right_wheel_joint']
+    wheel_separation: 0.297  # Ensure this matches your URDF/Xacro
+    wheel_radius: 0.033  # Ensure this matches your URDF/Xacro
+
+    use_stamped_vel: false
+
+    # Odometry Settings
+    odom_frame_id: odom
+    enable_odom_tf: true  # Publish odometry TF for navigation
+
+    # Velocity Limits (Increased for higher speed)
+    linear.x.has_velocity_limits: true
+    linear.x.max_velocity: 500.0  # Increased max speed (15 m/s)
+    linear.x.has_acceleration_limits: true
+    linear.x.max_acceleration: 80.0  # Increased acceleration to 2 m/s^2 for faster response
+
+    angular.z.has_velocity_limits: true
+    angular.z.max_velocity: 50.0  # Increased max angular velocity (3 rad/s)
+    angular.z.has_acceleration_limits: true
+    angular.z.max_acceleration: 30.0  # Increased angular acceleration for quicker turns
+
+    # Command Velocity Timeout (Failsafe)
+    cmd_vel_timeout: 0.5  # Stop if no command received in 0.5s
+
+joint_broad:
+  ros__parameters: {}

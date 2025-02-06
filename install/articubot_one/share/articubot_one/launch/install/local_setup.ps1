@@ -1,0 +1,1 @@
+/home/tanmay/bot_ws/src/articubot_one/launch/install/local_setup.ps1
